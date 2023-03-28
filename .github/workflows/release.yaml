@@ -43,5 +43,5 @@ jobs:
           file: .github/actions/Dockerfile
           push: true
           tags: |
-            ghcr.io/thg-accelerator/${{ github.event.repository.name }}:latest
-            ghcr.io/thg-accelerator/${{ github.event.repository.name }}:${{ env.RELEASE_VERSION }}
+            ghcr.io/rosscarmichael31/${{ github.event.repository.name }}:latest
+            ghcr.io/rosscarmichael31/${{ github.event.repository.name }}:${{ env.RELEASE_VERSION }}
