@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Gloock-Regular";
+  src: local("Gloock-Regular"),
+    url("./fonts/Gloock-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito-VariableFont_wght"),
+    url("./fonts/Nunito-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Pockota";
+  src: local("pockota-black"), url("./fonts/pockota-black.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: Nunito;
+  font-weight: 300;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
